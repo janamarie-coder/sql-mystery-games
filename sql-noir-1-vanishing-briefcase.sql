@@ -23,3 +23,11 @@ WHERE suspect_id = 3 OR suspect_id = 183;
 -- Vincent Malone: "I wasn't going to steal it, but I did."
 
 -- CONCLUSION: Vincent Malone is the culprit.
+
+-- Case Solved!
+-- Congratulations, detective! You have successfully identified Vincent Malone as the culprit.
+
+--Explanation
+--First, you retrieved the crime scene details from the 'crime_scene' table which mentioned a man in a trench coat with a scar on his left cheek.
+-- Next, querying the 'suspects' table narrowed the field down to two individuals. 
+--Finally, examining the 'interviews' table confirmed that Vincent Malone indeed stole the briefcase.
